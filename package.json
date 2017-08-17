@@ -12,6 +12,12 @@
     "defence-cli": "^2.0.1",
     "replace-require-self": "^1.1.1"
   },
+  "keywords": [
+    "prose",
+    "sorting",
+    "version",
+    "versioning"
+  ],
   "license": "MIT",
   "repository": "kemitchell/reviewers-edition-increment.js",
   "scripts": {
