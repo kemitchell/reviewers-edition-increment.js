@@ -1,0 +1,20 @@
+{
+  "name": "reviewers-edition-increment",
+  "description": "increment Reviewers Edition numbers",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "bin": "cli.js",
+  "dependencies": {
+    "reviewers-edition-parse": "^2.0.6",
+    "reviewers-edition-stringify": "^1.0.3"
+  },
+  "devDependencies": {
+    "defence-cli": "^2.0.1",
+    "replace-require-self": "^1.1.1"
+  },
+  "license": "MIT",
+  "repository": "kemitchell/reviewers-edition-increment.js",
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
